@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<XmlImages xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="opencms://system/modules/org.opencms.ade.containerpage/schemas/xmlimage.xsd">
+  <XmlImage language="en">
+    <Headline><![CDATA[Default placeholder image]]></Headline>
+    <Image>
+      <link type="WEAK">
+        <target><![CDATA[/sites/default/unify-demo/opencms-days/.galleries/days-pictures/Collage_OpenCmsDays2015.png]]></target>
+        <uuid>1efbad5b-6101-11e5-96b0-0113a6637352</uuid>
+      </link>
+    </Image>
+  </XmlImage>
+</XmlImages>

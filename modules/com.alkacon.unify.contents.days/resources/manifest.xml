@@ -2,9 +2,6 @@
 
 <export>
 	<info>
-		<creator>Admin</creator>
-		<opencms_version>9.9.x</opencms_version>
-		<createdate>Tue, 22 Sep 2015 08:29:30 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>10</export_version>
 	</info>
@@ -13,7 +10,7 @@
 		<nicename><![CDATA[OpenCms days demo module]]></nicename>
 		<class/>
 		<import-site>/sites/default/</import-site>
-		<export-mode name="default"/>
+		<export-mode name="reduced"/>
 		<description/>
 		<version>0.1</version>
 		<authorname><![CDATA[Daniel Seidel]]></authorname>
@@ -33,61 +30,13 @@
 		<file>
 			<destination>unify-demo</destination>
 			<type>subsitemap</type>
-			<uuidstructure>acb43685-5224-11e5-9495-0242ac11002b</uuidstructure>
-			<datelastmodified>Tue, 22 Sep 2015 06:27:56 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
-			<datecreated>Thu, 03 Sep 2015 10:15:17 GMT</datecreated>
-			<usercreated>Admin</usercreated>
-			<flags>0</flags>
-			<properties>
-				<property>
-					<name>Description</name>
-					<value><![CDATA[An advanced OpenCms Unify template demo site, brought to you by Alkacon Software.]]></value>
-				</property>
-				<property>
-					<name>NavPos</name>
-					<value><![CDATA[0.12]]></value>
-				</property>
-				<property>
-					<name>NavStartLevel</name>
-					<value><![CDATA[1]]></value>
-				</property>
-				<property>
-					<name>NavText</name>
-					<value><![CDATA[Unify Demo]]></value>
-				</property>
-				<property>
-					<name>Title</name>
-					<value><![CDATA[Demo Website]]></value>
-				</property>
-				<property>
-					<name>default-file</name>
-					<value><![CDATA[##navigation_level_folder##]]></value>
-				</property>
-				<property>
-					<name>locale</name>
-					<value><![CDATA[en]]></value>
-				</property>
-				<property>
-					<name>search.subsite</name>
-					<value><![CDATA[Unify Demo]]></value>
-				</property>
-				<property>
-					<name>template</name>
-					<value><![CDATA[/system/modules/com.alkacon.unify.formatters/templates/unify-page.jsp]]></value>
-				</property>
-			</properties>
-			<relations/>
-			<accesscontrol/>
+			<properties/>
 		</file>
 		<file>
 			<destination>unify-demo/opencms-days</destination>
 			<type>subsitemap</type>
 			<uuidstructure>954126bb-60ff-11e5-96b0-0113a6637352</uuidstructure>
-			<datelastmodified>Tue, 22 Sep 2015 07:58:38 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 22 Sep 2015 07:57:34 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -112,10 +61,7 @@
 			<type>containerpage</type>
 			<uuidstructure>954f0970-60ff-11e5-96b0-0113a6637352</uuidstructure>
 			<uuidresource>954f0971-60ff-11e5-96b0-0113a6637352</uuidresource>
-			<datelastmodified>Tue, 22 Sep 2015 08:09:53 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 22 Sep 2015 07:57:34 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -130,10 +76,7 @@
 			<destination>unify-demo/opencms-days/.content</destination>
 			<type>content_folder</type>
 			<uuidstructure>bbd036fe-60ff-11e5-96b0-0113a6637352</uuidstructure>
-			<datelastmodified>Tue, 22 Sep 2015 07:58:38 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 22 Sep 2015 07:58:38 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -145,10 +88,7 @@
 			<type>sitemap_config</type>
 			<uuidstructure>bbd54010-60ff-11e5-96b0-0113a6637352</uuidstructure>
 			<uuidresource>bbd54011-60ff-11e5-96b0-0113a6637352</uuidresource>
-			<datelastmodified>Tue, 22 Sep 2015 07:59:22 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 22 Sep 2015 07:58:38 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>512</flags>
 			<properties>
 				<property>
@@ -175,10 +115,7 @@
 			<destination>unify-demo/opencms-days/.content/texts</destination>
 			<type>folder</type>
 			<uuidstructure>61aa8f00-6100-11e5-96b0-0113a6637352</uuidstructure>
-			<datelastmodified>Tue, 22 Sep 2015 08:03:17 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 22 Sep 2015 08:03:17 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -190,10 +127,7 @@
 			<type>u-text</type>
 			<uuidstructure>61afbf22-6100-11e5-96b0-0113a6637352</uuidstructure>
 			<uuidresource>61afbf23-6100-11e5-96b0-0113a6637352</uuidresource>
-			<datelastmodified>Tue, 22 Sep 2015 08:09:26 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 22 Sep 2015 08:03:17 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -208,10 +142,7 @@
 			<destination>unify-demo/opencms-days/.content/xmlimage</destination>
 			<type>folder</type>
 			<uuidstructure>6189997b-6100-11e5-96b0-0113a6637352</uuidstructure>
-			<datelastmodified>Tue, 22 Sep 2015 08:03:16 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 22 Sep 2015 08:03:16 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -223,10 +154,7 @@
 			<type>xmlimage</type>
 			<uuidstructure>6190292d-6100-11e5-96b0-0113a6637352</uuidstructure>
 			<uuidresource>6190292e-6100-11e5-96b0-0113a6637352</uuidresource>
-			<datelastmodified>Tue, 22 Sep 2015 08:08:55 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 22 Sep 2015 08:03:16 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -241,10 +169,7 @@
 			<destination>unify-demo/opencms-days/.galleries</destination>
 			<type>folder</type>
 			<uuidstructure>de6519c5-6100-11e5-96b0-0113a6637352</uuidstructure>
-			<datelastmodified>Tue, 22 Sep 2015 08:06:46 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 22 Sep 2015 08:06:46 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties/>
 			<relations/>
@@ -254,10 +179,7 @@
 			<destination>unify-demo/opencms-days/.galleries/days-pictures</destination>
 			<type>imagegallery</type>
 			<uuidstructure>de68ea57-6100-11e5-96b0-0113a6637352</uuidstructure>
-			<datelastmodified>Tue, 22 Sep 2015 08:06:46 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 22 Sep 2015 08:06:46 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>
@@ -274,10 +196,7 @@
 			<type>image</type>
 			<uuidstructure>1efbad5b-6101-11e5-96b0-0113a6637352</uuidstructure>
 			<uuidresource>1efbad5c-6101-11e5-96b0-0113a6637352</uuidresource>
-			<datelastmodified>Tue, 22 Sep 2015 08:08:34 GMT</datelastmodified>
-			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 22 Sep 2015 08:08:34 GMT</datecreated>
-			<usercreated>Admin</usercreated>
 			<flags>0</flags>
 			<properties>
 				<property>

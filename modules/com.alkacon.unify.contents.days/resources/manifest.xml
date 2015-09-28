@@ -4,7 +4,7 @@
 	<info>
 		<creator>Admin</creator>
 		<opencms_version>9.9.x</opencms_version>
-		<createdate>Thu, 24 Sep 2015 14:48:54 GMT</createdate>
+		<createdate>Mon, 28 Sep 2015 10:29:57 GMT</createdate>
 		<infoproject>Offline</infoproject>
 		<export_version>10</export_version>
 	</info>
@@ -190,7 +190,7 @@
 			<type>u-text</type>
 			<uuidstructure>61afbf22-6100-11e5-96b0-0113a6637352</uuidstructure>
 			<uuidresource>61afbf23-6100-11e5-96b0-0113a6637352</uuidresource>
-			<datelastmodified>Thu, 24 Sep 2015 14:37:48 GMT</datelastmodified>
+			<datelastmodified>Mon, 28 Sep 2015 10:29:38 GMT</datelastmodified>
 			<userlastmodified>Admin</userlastmodified>
 			<datecreated>Tue, 22 Sep 2015 08:03:17 GMT</datecreated>
 			<usercreated>Admin</usercreated>
